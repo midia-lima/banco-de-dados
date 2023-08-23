@@ -1,27 +1,3 @@
-## NoSQL
-
-**O que é NoSQL?**
-- Suprir as necessidades que o SQL não conseguia
-- Permitir novos modelos de aplicação
-
-Quais seriam as necessidade?<br>
-Com o crescimento da internet temos:
-- Maior quantidade de dados
-- Mais recursos de armazenamentos
-- Mais recursos de leitura de dados
-
-**BD relacionais**
-- Padrão ANSI
-- Linguagem SQL
-- Armazenamento em tabelas<br>
-Exemplos: MySQL, Oracle, SQL Server
-
-**BD não relacionais**
-- Não seguem um padrão
-- Tem sua própia linguagem de consulta
-- Tem sua própia estrutura de armazenamento<br>
-Exemplos: MongoDB, DynamoDB
-
 ## MongoDB
 O MongoDB utiliza o formato de documentos que são armazenados dentro de coleções, essas coleções tem uma estrutura semelhante ao JSON e os esquemas não são fixos.
 
@@ -81,7 +57,5 @@ db.dropDatabase()
 ```
 
 ## MongoDB Compass
-MongoDB Compass, que é uma GUI - Graphical User Interface" (Interface Gráfica do Usuário) poderosa para consultar, agregar e analisar seus dados do MongoDB em um ambiente visual.<br>
-
-Para que o banco de dados exiba no MongoDB Compass ele precisa conter dados/coleções.
+MongoDB Compass, que é uma GUI - Graphical User Interface (Interface Gráfica do Usuário) poderosa para consultar, agregar e analisar seus dados do MongoDB em um ambiente visual. Para que o banco de dados exiba no MongoDB Compass ele precisa conter dados/coleções.
 
