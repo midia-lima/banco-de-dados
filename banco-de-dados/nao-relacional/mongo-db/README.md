@@ -44,19 +44,44 @@ O MongoDB Compass é uma GUI poderosa para consultar, agregar e analisar seus da
 
 [Download MongoDB](https://www.mongodb.com/try/download/community)
 
-[Download MongoDB Shell ](https://www.mongodb.com/try/download/shell)
+[Download MongoDB Shell](https://www.mongodb.com/try/download/shell)
+
+[Database Methods](https://www.mongodb.com/docs/manual/reference/method/js-database/)
 
 Após as instalações abra o shell e execute os comandos.
 
+Nos conecta automaticamente ao MongoDB
 ```
-mongosh -> nos conecta automaticamente ao MongoDB
-
-show databases -> exibe os bancos de dados existentes
+mongosh
 ```
 
-Criando um banco de dados novo
+Exibe os bancos de dados existentes
+```
+show databases
+```
+
+Para criar ou selecionar um banco de dados
 ```
 use <nome-do-banco>
 ```
+
+Para criar uma coleção
+```
+db.createCollection("nome_da_coleção")
+```
+
+Para excluir uma coleção. Onde o texto collection deve ser substituído pelo nome da coleção que será excluída
+```
+db.collection.drop()
+```
+
+Para excluir um banco de dados
+```
+db.dropDatabase()
+```
+
 ## MongoDB Compass
-MongoDB Compass, que é uma GUI - Graphical User Interface" (Interface Gráfica do Usuário) poderosa para consultar, agregar e analisar seus dados do MongoDB em um ambiente visual.
+MongoDB Compass, que é uma GUI - Graphical User Interface" (Interface Gráfica do Usuário) poderosa para consultar, agregar e analisar seus dados do MongoDB em um ambiente visual.<br>
+
+Para que o banco de dados exiba no MongoDB Compass ele precisa conter dados/coleções.
+
