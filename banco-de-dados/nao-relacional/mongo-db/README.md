@@ -58,3 +58,5 @@ Criando um banco de dados novo
 ```
 use <nome-do-banco>
 ```
+## MongoDB Compass
+MongoDB Compass, que é uma GUI - Graphical User Interface" (Interface Gráfica do Usuário) poderosa para consultar, agregar e analisar seus dados do MongoDB em um ambiente visual.
