@@ -10,9 +10,6 @@ O MongoDB utiliza o formato de documentos que são armazenados dentro de coleç�
 - Possui duas versões: Community e Enterprise
 - Possui a versão hospedada na nuvem, o MongoDB Atlas.
   
-
-<br>
-
 Faça a instalação do **MongoDB** e deixe habilitado o **MongoDB Compass**.
 Faça a instalação também do **Mongo Shell**
 
@@ -56,6 +53,60 @@ Para excluir um banco de dados
 db.dropDatabase()
 ```
 
+Inserir vários documentos ao mesmo tempo na em uma coleção
+```
+db.series.insertMany([])
+```
+
+Inserir um único documento por vez em uma coleção
+```
+db.series.insertOne()
+```
+
 ## MongoDB Compass
 MongoDB Compass, que é uma GUI - Graphical User Interface (Interface Gráfica do Usuário) poderosa para consultar, agregar e analisar seus dados do MongoDB em um ambiente visual. Para que o banco de dados exiba no MongoDB Compass ele precisa conter dados/coleções.
+
+O MongoDB armazena seus registros com documentos BSON. O BSON é uma representação binária de documentos JSON. Um ponto interessante, é que o BSON trabalha com mais tipos de dados que o próprio JSON. A estrutura interna com a qual o MongoDB organiza seus registros é composta por pares de chave e valor.
+
+## Tipos de dados que o MongoDB armazena
+
+**NULL:** armazena valores nulos;
+
+**Boolean:** pode armazenar valores true ou falso;
+
+**Number:** número com sinal que pode ter uma notação com E exponencial;
+
+**Inteiro:** pode armazenar o tipo de dados inteiro em duas formas, inteiro assinado de 32 bits e inteiro assinado de 64 bits;
+
+**String:** uma sequência de um ou mais caracteres Unicode;
+
+**Object:** um array não ordenado com itens do tipo chave/valor, também conhecidos como documentos aninhados;
+
+**Array:** armazena uma lista ordenada de qualquer tipo, criada usando colchetes e com cada elemento separado por vírgulas;
+
+**ObjectId:** identificador único de um registro do MongoDB;
+
+**Date():** retorna a data atual em formato de string; e
+
+**New Date()** e **ISODate():** retornam um objeto de data.
+
+## Consultas no Compass
+**FILTER:** utilizado para especificar qual será a condição que os documentos devem atender para serem retornados na busca.
+
+**PROJECT:** utilizado para especificar quais campos serão ou não retornados na consulta.
+
+- Ao Informar o nome do campo e informar 0, todos os campos, exceto os campos especificados no campo project, são retornados.Se o campo receber o valor de 1, ele será retornado na consulta. O campo _id é retornado por padrão, a menos que este seja especificado no campo project e definido como 0.
+
+**SORT:** especifica a ordem de classificação dos documentos retornados.
+
+- Para especificar a ordem crescente de um campo, defina o campo como 1.
+- Para especificar a ordem decrescente de um campo, defina o campo como -1.
+  
+**MAX TIME MS:** define o limite de tempo cumulativo em milissegundos para processar as operações da barra de consulta. Se o limite de tempo for atingido antes da conclusão da operação, o Compass interrompe a operação.
+
+**COLLATION:** utilizado para especificar regras específicas do idioma para comparação de textos, como regras para letras maiúsculas ou minúsculas, acentos, entre outros.
+
+**SKIP:** especifica quantos documentos devem ser ignorados antes de retornar o conjunto de resultados.
+
+**LIMIT:** especifica o número máximo de documentos a serem retornados.
 
