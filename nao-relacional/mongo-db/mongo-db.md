@@ -21,6 +21,10 @@ O MongoDB Compass é uma GUI poderosa para consultar, agregar e analisar seus da
 
 [Database Methods](https://www.mongodb.com/docs/manual/reference/method/js-database/)
 
+[mongosh Methods](https://www.mongodb.com/docs/v7.0/reference/method/)
+
+[Query and Projection Operators](https://www.mongodb.com/docs/v7.0/reference/operator/query/)
+
 Após as instalações abra o shell e execute os comandos.
 
 Nos conecta automaticamente ao MongoDB
@@ -62,6 +66,29 @@ Inserir um único documento por vez em uma coleção
 ```
 db.series.insertOne()
 ```
+
+Realizamos consultas
+
+QUERY: especificamos a condição que os nossos documentos devem atender para serem retornados na nossa consulta.
+
+PROJECTION: especificamos quais campos devem ou não ser retornados na nossa consulta.
+```
+db.collection.find(query, projection)
+```
+
+## Query Selectors
+
+| Nome  | Descrição |
+| ------| ----------|
+| $eq   | Corresponde a valores que são iguais a um valor especificado.|
+| $gt   | Corresponde a valores maiores que um valor especificado.     |
+| $gte  | Corresponde a valores maiores ou iguais a um valor especificado.|
+| $in   | Corresponde a qualquer um dos valores especificados em uma matriz.|
+| $lt   | Corresponde a valores menores que um valor especificado.|
+| $lte  | Corresponde a valores menores ou iguais a um valor especificado.|
+| $ne   |Corresponde a todos os valores que não são iguais a um valor especificado.|
+| $nin  |Não corresponde a nenhum dos valores especificados em uma matriz.|
+
 
 ## MongoDB Compass
 MongoDB Compass, que é uma GUI - Graphical User Interface (Interface Gráfica do Usuário) poderosa para consultar, agregar e analisar seus dados do MongoDB em um ambiente visual. Para que o banco de dados exiba no MongoDB Compass ele precisa conter dados/coleções.
