@@ -59,12 +59,12 @@ db.dropDatabase()
 
 Inserir vários documentos ao mesmo tempo na em uma coleção
 ```
-db.series.insertMany([])
+db.collection.insertMany([])
 ```
 
 Inserir um único documento por vez em uma coleção
 ```
-db.series.insertOne()
+db.collection.insertOne()
 ```
 
 Realizamos consultas
@@ -75,6 +75,30 @@ PROJECTION: especificamos quais campos devem ou não ser retornados na nossa con
 ```
 db.collection.find(query, projection)
 ```
+
+Atualiza um documento por vez
+```
+db.collection.updateOne()
+```
+
+Atualiza vários documentos ao mesmo tempo
+```
+db.collection.updateMany()
+```
+
+Remove um documento por vez
+```
+db.collection.updateOne()
+```
+
+Remove vários documentos ao mesmo tempo
+```
+db.collection.deleteMany()
+```
+
+
+
+
 
 ## Query Selectors
 

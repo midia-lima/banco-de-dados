@@ -1,0 +1,119 @@
+[
+  {
+    "_id": {
+      "$oid": "64e82027bd6be68ecb7cd134"
+    },
+    "Série": "The Mentalist",
+    "Ano de lançamento": 2008,
+    "Temporadas disponíveis": 7,
+    "Linguagem": "Inglês",
+    "Gênero": ["Crime", "Drama", "Mystery", "Thriller"],
+    "IMDb Avaliação": 8.2,
+    "Classificação": "14+",
+    "Emissora original": "CBS"
+  },
+  {
+    "_id": {
+      "$oid": "64e82069bd6be68ecb7cd138"
+    },
+    "Série": "Revenge",
+    "Ano de lançamento": 2011,
+    "Temporadas disponíveis": 4,
+    "Linguagem": "Inglês",
+    "Gênero": ["Drama", "Mystery", "Thriller"],
+    "IMDb Avaliação": 7.8,
+    "Classificação": "14+",
+    "Emissora original": "ABC"
+  },
+  {
+    "_id": {
+      "$oid": "64e820a4bd6be68ecb7cd13c"
+    },
+    "Série": "The Good Wife",
+    "Ano de lançamento": 2009,
+    "Temporadas disponíveis": 7,
+    "Linguagem": "Inglês",
+    "Gênero": ["Crime", "Drama", "Mystery"],
+    "IMDb Avaliação": 8.4,
+    "Classificação": "14+",
+    "Emissora original": "CBS"
+  },
+  {
+    "_id": {
+      "$oid": "64e820d4bd6be68ecb7cd140"
+    },
+    "Série": "Castle",
+    "Ano de lançamento": 2009,
+    "Temporadas disponíveis": 8,
+    "Linguagem": "Inglês",
+    "Gênero": ["Comedy", "Crime", "Mystery", "Drama", "Romance"],
+    "IMDb Avaliação": 8.1,
+    "Classificação": "14+",
+    "Emissora original": "ABC"
+  },
+  {
+    "_id": {
+      "$oid": "64e8210dbd6be68ecb7cd144"
+    },
+    "Série": "How I Met Your Mother",
+    "Ano de lançamento": 2005,
+    "Temporadas disponíveis": 9,
+    "Linguagem": "Inglês",
+    "Gênero": ["Comedy", "Drama", "Romance"],
+    "IMDb Avaliação": 8.3,
+    "Classificação": "14+",
+    "Emissora original": "CBS"
+  },
+  {
+    "_id": {
+      "$oid": "64ea4facf6d558db7dec6c58"
+    },
+    "Série": "Secrets and Lies",
+    "Ano de lançamento": 2015,
+    "Temporadas disponíveis": 2,
+    "Linguagem": "Inglês",
+    "Gênero": ["Crime", "Drama", "Mystery"],
+    "IMDb Avaliação": 7.6,
+    "Classificação": "14+",
+    "Emissora original": "ABC"
+  },
+  {
+    "_id": {
+      "$oid": "64ea500ff6d558db7dec6c5a"
+    },
+    "Série": "The Closer",
+    "Ano de lançamento": 2005,
+    "Temporadas disponíveis": 7,
+    "Linguagem": "Inglês",
+    "Gênero": ["Crime", "Drama", "Mystery"],
+    "IMDb Avaliação": 7.8,
+    "Classificação": "14+",
+    "Emissora original": "TNT"
+  },
+  {
+    "_id": {
+      "$oid": "64ea524af6d558db7dec6c5c"
+    },
+    "Série": "Sherlock",
+    "Ano de lançamento": 2010,
+    "Temporadas disponíveis": 4,
+    "Linguagem": "Inglês",
+    "Gênero": ["Crime", "Drama", "Mystery", "Thriller"],
+    "IMDb Avaliação": 9.1,
+    "Classificação": "14+",
+    "Emissora original": "BBC One"
+  },
+  {
+    "_id": {
+      "$oid": "64ea52e8f6d558db7dec6c5e"
+    },
+    "Série": "What If...?",
+    "Ano de lançamento": 2021,
+    "Temporadas disponíveis": 3,
+    "Linguagem": "Inglês",
+    "Gênero": ["Animation", "Action", "Adventure", "Sci-Fi"],
+    "IMDb Avaliação": 7.4,
+    "Classificação": "14+",
+    "Emissora original": "Disney+"
+  }
+]
