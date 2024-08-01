@@ -82,3 +82,14 @@ Exemplos de uso de OLAP incluem análises de vendas, marketing, financeiro, gere
 - Fornecem tendências
 - Produzem comparações
 - Produzem estimativas
+
+### Modelos de Dados
+
+####  Modelo Conceitual de Dados
+O modelo conceitual de dados é uma representação abstrata de como os dados são organizados e inter-relacionados dentro de um sistema de informação. Ele é a primeira etapa no processo de modelagem de dados e serve como um plano de alto nível, sem se preocupar com detalhes técnicos específicos da implementação.
+
+#### Modelo Lógico de Dados
+O modelo lógico de dados é uma representação detalhada e estruturada de como os dados são organizados e inter-relacionados dentro de um sistema de gerenciamento de banco de dados (SGBD). Ele é derivado do modelo conceitual de dados e serve como um intermediário entre o modelo conceitual (abstrato) e o modelo físico (implementação específica)
+
+#### Modelo Físico de Dados
+Do modelo lógico podemos derivar o modelo físico, no qual se encontram detalhados os componentes de estrutura física do banco de dados, como tabelas, campos, tipos de valores, índices. Neste ponto estaremos prontos para a implementação do banco de dados utilizando um SGBD.
