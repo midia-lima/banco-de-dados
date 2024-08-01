@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="622DD520-D36A-F703-4CE6-B87E2E15DB7D" mainViewID="5C7C042C-4BB3-69C1-45BA-A12B21227085">
+<createdBy>midia-pereira</createdBy>
+<createdTime>2024-08-01 17:55:46 UTC</createdTime>
+<ownerDesignName>implanta-tudo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

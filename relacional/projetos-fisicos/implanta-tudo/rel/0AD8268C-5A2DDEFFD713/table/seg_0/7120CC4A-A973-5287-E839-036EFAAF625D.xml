@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7120CC4A-A973-5287-E839-036EFAAF625D" name="T_SIP_DEPARTAMENTO">
+<createdBy>midia-pereira</createdBy>
+<createdTime>2024-08-01 17:57:18 UTC</createdTime>
+<ownerDesignName>implanta-tudo</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_depto" id="BC8F9031-61D0-FF6C-EC02-3A7FBB35B2D6">
+<createdBy>midia-pereira</createdBy>
+<createdTime>2024-08-01 17:58:27 UTC</createdTime>
+<ownerDesignName>implanta-tudo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_depto" id="40FA1C67-A5CB-8174-4796-D33CD2EBCDA6">
+<createdBy>midia-pereira</createdBy>
+<createdTime>2024-08-01 17:58:27 UTC</createdTime>
+<ownerDesignName>implanta-tudo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E5395017-6E26-E2F9-D429-0E1AAEF08F4B" name="PK_SIP_DEPARTAMENTO">
+<createdBy>midia-pereira</createdBy>
+<createdTime>2024-08-01 17:58:27 UTC</createdTime>
+<ownerDesignName>implanta-tudo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC8F9031-61D0-FF6C-EC02-3A7FBB35B2D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

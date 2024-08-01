@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="implanta-tudo" id="80D9FBD5-C320-5D52-1993-239D428F8E1D" version="3.5">
+<createdBy>midia-pereira</createdBy>
+<createdTime>2024-08-01 17:55:46 UTC</createdTime>
+<ownerDesignName>implanta-tudo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>80D9FBD5-C320-5D52-1993-239D428F8E1D</designId>
+</OSDM_Design>

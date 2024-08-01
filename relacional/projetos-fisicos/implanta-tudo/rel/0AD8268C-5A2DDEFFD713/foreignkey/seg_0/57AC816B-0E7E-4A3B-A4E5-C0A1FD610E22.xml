@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="57AC816B-0E7E-4A3B-A4E5-C0A1FD610E22" containerWithKeyObject="2E6B81A8-6887-D195-F0D4-50B206A6FFAB" localFKIndex="A2E9A5EF-75DF-52BD-BF84-25AC1F89677A" name="FK_FUNC_DEPENDENTE">
+<createdBy>midia-pereira</createdBy>
+<createdTime>2024-08-01 18:24:27 UTC</createdTime>
+<ownerDesignName>implanta-tudo</ownerDesignName>
+<referredTableLongName>T_SIP_FUNCIONARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5E9B738D-EBD1-1F18-AC24-79E4AD4DF8BD</referredTableID>
+<keyObject>78D109E0-C767-1F64-3806-4FAD5F09699F</keyObject>
+<referredKeyID>78D109E0-C767-1F64-3806-4FAD5F09699F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nr_matricula</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

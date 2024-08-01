@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E6B81A8-6887-D195-F0D4-50B206A6FFAB" name="T_SIP_DEPENDENTE">
+<createdBy>midia-pereira</createdBy>
+<createdTime>2024-08-01 18:16:00 UTC</createdTime>
+<ownerDesignName>implanta-tudo</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_dependente" id="A0B85CAD-3280-602E-0891-96B6047008D5">
+<createdBy>midia-pereira</createdBy>
+<createdTime>2024-08-01 18:16:57 UTC</createdTime>
+<ownerDesignName>implanta-tudo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_matricula" id="C2B9170C-9D24-0C64-B858-0562863C7A9B">
+<createdBy>midia-pereira</createdBy>
+<createdTime>2024-08-01 18:24:27 UTC</createdTime>
+<ownerDesignName>implanta-tudo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57AC816B-0E7E-4A3B-A4E5-C0A1FD610E22" referredColumn="233A0E84-4271-80D0-9433-BF6960FED3CF"/>
+</associations>
+</Column>
+<Column name="nm_dependente" id="D479FDF1-A6FF-9EF1-8FFA-0FDB4DFE2015">
+<createdBy>midia-pereira</createdBy>
+<createdTime>2024-08-01 18:20:02 UTC</createdTime>
+<ownerDesignName>implanta-tudo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="BD90534B-D2CE-DD64-6877-F92F3B63E9FB">
+<createdBy>midia-pereira</createdBy>
+<createdTime>2024-08-01 18:20:26 UTC</createdTime>
+<ownerDesignName>implanta-tudo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="091149DD-934B-A93B-EA52-C5FFE4708A85" name="PK_SIP_DEPENDENTE">
+<createdBy>midia-pereira</createdBy>
+<createdTime>2024-08-01 18:17:09 UTC</createdTime>
+<ownerDesignName>implanta-tudo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0B85CAD-3280-602E-0891-96B6047008D5"/>
+<colUsage columnID="C2B9170C-9D24-0C64-B858-0562863C7A9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2E9A5EF-75DF-52BD-BF84-25AC1F89677A" name="FK_FUNC_DEPENDENTE">
+<createdBy>midia-pereira</createdBy>
+<createdTime>2024-08-01 18:24:27 UTC</createdTime>
+<ownerDesignName>implanta-tudo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2B9170C-9D24-0C64-B858-0562863C7A9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0CD9D90A-2D1B-DB1D-5A6D-3908F91372FB" containerWithKeyObject="5E9B738D-EBD1-1F18-AC24-79E4AD4DF8BD" localFKIndex="00E4E9D6-ABE0-FF06-650C-52B8ABBBF1F2" name="FK_FUNC_DEPTO">
+<createdBy>midia-pereira</createdBy>
+<createdTime>2024-08-01 18:14:03 UTC</createdTime>
+<ownerDesignName>implanta-tudo</ownerDesignName>
+<referredTableLongName>T_SIP_DEPARTAMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7120CC4A-A973-5287-E839-036EFAAF625D</referredTableID>
+<keyObject>E5395017-6E26-E2F9-D429-0E1AAEF08F4B</keyObject>
+<referredKeyID>E5395017-6E26-E2F9-D429-0E1AAEF08F4B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_depto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

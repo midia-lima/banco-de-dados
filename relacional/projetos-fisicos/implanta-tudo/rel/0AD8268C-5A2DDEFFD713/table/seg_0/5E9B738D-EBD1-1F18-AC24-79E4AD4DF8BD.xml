@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E9B738D-EBD1-1F18-AC24-79E4AD4DF8BD" name="T_SIP_FUNCIONARIO">
+<createdBy>midia-pereira</createdBy>
+<createdTime>2024-08-01 18:00:58 UTC</createdTime>
+<ownerDesignName>implanta-tudo</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_matricula" id="233A0E84-4271-80D0-9433-BF6960FED3CF">
+<createdBy>midia-pereira</createdBy>
+<createdTime>2024-08-01 18:02:02 UTC</createdTime>
+<ownerDesignName>implanta-tudo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_depto" id="127C80AE-813D-F77F-D1C8-8AE1148D86E6">
+<createdBy>midia-pereira</createdBy>
+<createdTime>2024-08-01 18:14:03 UTC</createdTime>
+<ownerDesignName>implanta-tudo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CD9D90A-2D1B-DB1D-5A6D-3908F91372FB" referredColumn="BC8F9031-61D0-FF6C-EC02-3A7FBB35B2D6"/>
+</associations>
+</Column>
+<Column name="nm_funcionario" id="174576B6-645A-130B-68D6-7D1A715E5081">
+<createdBy>midia-pereira</createdBy>
+<createdTime>2024-08-01 18:03:02 UTC</createdTime>
+<ownerDesignName>implanta-tudo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="8DB14971-33DA-B0FA-5671-887137A5E410">
+<createdBy>midia-pereira</createdBy>
+<createdTime>2024-08-01 18:03:27 UTC</createdTime>
+<ownerDesignName>implanta-tudo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_admissao" id="B4962B64-8564-18F4-4944-D4792CC0F7C4">
+<createdBy>midia-pereira</createdBy>
+<createdTime>2024-08-01 18:03:46 UTC</createdTime>
+<ownerDesignName>implanta-tudo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_endereco" id="685F6625-3437-2EFA-BEB3-00D012BE90DE">
+<createdBy>midia-pereira</createdBy>
+<createdTime>2024-08-01 18:04:06 UTC</createdTime>
+<ownerDesignName>implanta-tudo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_salario" id="BBA180D3-BE4F-60D2-CDF2-0B9B08D43CA8">
+<createdBy>midia-pereira</createdBy>
+<createdTime>2024-08-01 18:04:50 UTC</createdTime>
+<ownerDesignName>implanta-tudo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78D109E0-C767-1F64-3806-4FAD5F09699F" name="PK_SIP_FUNCIONARIO">
+<createdBy>midia-pereira</createdBy>
+<createdTime>2024-08-01 18:02:18 UTC</createdTime>
+<ownerDesignName>implanta-tudo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="233A0E84-4271-80D0-9433-BF6960FED3CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00E4E9D6-ABE0-FF06-650C-52B8ABBBF1F2" name="FK_FUNC_DEPTO">
+<createdBy>midia-pereira</createdBy>
+<createdTime>2024-08-01 18:14:03 UTC</createdTime>
+<ownerDesignName>implanta-tudo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="127C80AE-813D-F77F-D1C8-8AE1148D86E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

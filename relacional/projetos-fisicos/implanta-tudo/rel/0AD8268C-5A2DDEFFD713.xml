@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="0AD8268C-97EC-B255-3C92-5A2DDEFFD713" mainViewID="E8A1222E-8235-87F7-1834-930076941DFE">
+<createdBy>midia-pereira</createdBy>
+<createdTime>2024-08-01 17:55:51 UTC</createdTime>
+<ownerDesignName>implanta-tudo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>
