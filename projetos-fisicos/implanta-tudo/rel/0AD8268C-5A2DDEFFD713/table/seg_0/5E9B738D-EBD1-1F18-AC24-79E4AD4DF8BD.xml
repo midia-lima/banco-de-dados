@@ -49,7 +49,6 @@
 <createdBy>midia-pereira</createdBy>
 <createdTime>2024-08-01 18:03:27 UTC</createdTime>
 <ownerDesignName>implanta-tudo</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
