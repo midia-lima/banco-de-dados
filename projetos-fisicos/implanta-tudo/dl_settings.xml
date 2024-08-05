@@ -111,7 +111,7 @@
 			<font_object fo_type="Comentários" font_color="-12566464" font_name="Dialog" font_size="10" font_style="0" id="28"/>
 		</fonts>
 		</fc_object>
-		<fc_object classname="Table" background="-76" foreground="-16776961" noBackgroundColor="false" noForegroundColor="false">
+		<fc_object classname="Table" background="-76" foreground="-16777216" noBackgroundColor="false" noForegroundColor="false">
 		<fonts>
 			<font_object fo_type="Título" font_color="-16776961" font_name="Dialog" font_size="10" font_style="1" id="1"/>
 			<font_object fo_type="Coluna" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0" id="2"/>

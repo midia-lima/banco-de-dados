@@ -93,3 +93,6 @@ O modelo lógico de dados é uma representação detalhada e estruturada de como
 
 #### Modelo Físico de Dados
 Do modelo lógico podemos derivar o modelo físico, no qual se encontram detalhados os componentes de estrutura física do banco de dados, como tabelas, campos, tipos de valores, índices. Neste ponto estaremos prontos para a implementação do banco de dados utilizando um SGBD.
+
+### Dados Relacionais
+Os itens em um banco de dados relacional são organizados como um conjunto de tabelas com colunas e linhas. A tecnologia de banco de dados relacional fornece a maneira mais eficiente e flexível de acessar informações estruturadas.
