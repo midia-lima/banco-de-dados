@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B45EC9F2-1F24-CD12-CBD7-D25CE163CAFB" name="T_ESTADO">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:13:40 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_estado" id="1D1661B1-3108-3227-4367-D364FB095E0A">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:13:53 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_estado" id="676D7F64-6E1C-A4A1-7B8C-5BEBEA003D58">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:14:14 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sg_estado" id="0D12B59D-B85A-E564-EED7-DAF72B2FB511">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:14:58 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5D3693FD-ACD3-2DA8-AD31-4CDF442EF189" name="PK_ESTADO">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:13:56 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>1D1661B1-3108-3227-4367-D364FB095E0A</newElementsIDs>
+<usedAttributes>
+<attributeRef>1D1661B1-3108-3227-4367-D364FB095E0A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="DEA836EF-31D9-065F-25EF-A25B559BEE8D" mainViewID="5D14EE08-3729-B336-8319-BDC41C3C4EF1">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 01:41:22 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

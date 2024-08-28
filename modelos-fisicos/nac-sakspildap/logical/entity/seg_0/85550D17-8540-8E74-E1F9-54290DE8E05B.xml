@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="85550D17-8540-8E74-E1F9-54290DE8E05B" name="T_TIPO_LOGRADOURO">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:25:26 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_tipo_logradouro" id="73A7C35C-C9FF-9162-F999-21AAB9E7C0B7">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:27:01 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_tipo_logra" id="F445842E-6E26-ECDF-C3FB-D0B250D2C352">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:28:59 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AB8EC8F4-3BB3-3110-80F5-2EA72E9D1C4E" name="PK_TP_LOGRADOURO">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:28:23 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>73A7C35C-C9FF-9162-F999-21AAB9E7C0B7</newElementsIDs>
+<usedAttributes>
+<attributeRef>73A7C35C-C9FF-9162-F999-21AAB9E7C0B7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

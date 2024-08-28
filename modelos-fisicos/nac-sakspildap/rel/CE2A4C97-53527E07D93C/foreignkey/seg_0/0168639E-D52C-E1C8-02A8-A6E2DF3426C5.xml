@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0168639E-D52C-E1C8-02A8-A6E2DF3426C5" containerWithKeyObject="259011A2-43E6-CE72-D491-202453E1872C" localFKIndex="1EF46556-E73A-F681-9FB7-4AA860BBC76A" name="FK_BAIRRO_CID">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>4DB3440D-D65E-039B-F51E-73A6AF77B7B8</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<referredTableLongName>T_CIDADE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5BFAFD59-BB6F-202E-5F36-E8D95E522E27</referredTableID>
+<keyObject>4E83C3C9-0755-A3C6-D7D2-903F0BCAFA1A</keyObject>
+<referredKeyID>4E83C3C9-0755-A3C6-D7D2-903F0BCAFA1A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_cidade</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5BFAFD59-BB6F-202E-5F36-E8D95E522E27" name="T_CIDADE">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>DE4AAB95-68B7-9A37-2D7E-8EC958486927</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cidade" id="195F02A4-195C-E67D-411B-AFBBFE0C08A3">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>7B87B97D-CB53-3177-CC5E-E2AA10F6F562</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_estado" id="8FD43FFD-1BE7-3F88-6720-9BB90FCAAFD7">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>4FF4957C-5184-8BF2-AC01-90F3D986B698</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9949C8A-0A98-6B64-2542-AB3F5000D8F4" referredColumn="5172FA6A-440E-7CA5-9512-9BC3EFB70573"/>
+</associations>
+</Column>
+<Column name="nm_cidade" id="729C0DD8-DB2E-7A68-31FC-8A13327F5162">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>7753092B-9B2F-FC15-07DC-21C0601AF63B</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E83C3C9-0755-A3C6-D7D2-903F0BCAFA1A" name="PK_CIDADE">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>C2C6215D-F4F7-4A35-CAAF-16A9E77DB451</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="195F02A4-195C-E67D-411B-AFBBFE0C08A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A77EF4D-C00D-98CA-B08C-E0B0EEDFCE7C" name="FK_BAIRRO_ESTADO">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>6A80B17B-78B5-E984-7B36-FBADB7839B3B</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FD43FFD-1BE7-3F88-6720-9BB90FCAAFD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

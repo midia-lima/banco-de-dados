@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="1AA84275-E70E-3429-D6C6-65CF845F8FE4">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 01:41:23 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

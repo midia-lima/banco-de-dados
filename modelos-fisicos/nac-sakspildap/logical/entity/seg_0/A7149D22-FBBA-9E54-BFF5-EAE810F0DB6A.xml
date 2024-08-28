@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A7149D22-FBBA-9E54-BFF5-EAE810F0DB6A" name="T_FUNC_END">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:31:32 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_cep" id="19F7A013-343C-5DE7-FF83-D50B7C6A2B02">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:32:23 UTC</createdTime>
+<generatorID>FC9E6B20-3DFB-9F07-3F8B-4735D54F2E6E</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<referedAttribute>84A65066-1F12-E41F-AFB9-7C5A82B0953F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_func" id="DCD789E8-EC63-96FE-EB6A-FC1D24D3E780">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:32:39 UTC</createdTime>
+<generatorID>ABC9E1DD-3699-ECF4-DC68-1E728EEC1A99</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<referedAttribute>1F22D46A-CC7C-F4B4-F05F-1578490239ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_tipo_end" id="CAAD8D5C-AF82-0FD0-13C4-F4B6EB90570F">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:34:59 UTC</createdTime>
+<generatorID>47D8CE69-4DD1-1D6C-FAF2-5028085F50D0</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<referedAttribute>B870B6EE-1604-9008-F268-A1666A4054A7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_complemento" id="13868A64-D063-A398-D86E-AC7AC622E144">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:35:23 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_logradouro" id="4B0C757A-7729-EED5-8FF0-55233FFD86CB">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:36:16 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

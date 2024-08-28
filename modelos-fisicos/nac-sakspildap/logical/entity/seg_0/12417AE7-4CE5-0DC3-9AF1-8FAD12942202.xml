@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="12417AE7-4CE5-0DC3-9AF1-8FAD12942202" name="T_FONE_USUARIO">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:45:22 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_func" id="EBBF4F41-7CD8-F46C-6AD1-45CC7039FA89">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:46:26 UTC</createdTime>
+<generatorID>A12A2167-BC0A-C542-03CF-E1022847D538</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<referedAttribute>1F22D46A-CC7C-F4B4-F05F-1578490239ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ddd" id="70DE94D5-6DB9-A5FE-5FB8-B014FC83216B">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:46:45 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="08CA4E9D-FD12-64A9-48B7-A47653F6E169">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:48:02 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_tipo_fone" id="F3870EC8-5F56-8622-4AD0-7AC146D75AE8">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:49:50 UTC</createdTime>
+<generatorID>12258857-1F83-F82F-BB38-14D38B2F3F1E</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<referedAttribute>0B64C45C-4409-16D7-17B4-49772B56C079</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_operadora" id="92612BB4-60F6-C337-D5D8-301EF4BBBFF6">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:50:14 UTC</createdTime>
+<generatorID>81E9630A-38AE-5015-55BC-A7A5793162C0</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<referedAttribute>B2A95049-D452-98FD-4104-91E2116B84E1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="598C7F50-68AE-31D1-5557-FFD3027138AE" name="PK_FONE_USUARIO">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:47:09 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>A12A2167-BC0A-C542-03CF-E1022847D538,70DE94D5-6DB9-A5FE-5FB8-B014FC83216B,08CA4E9D-FD12-64A9-48B7-A47653F6E169</newElementsIDs>
+<usedAttributes>
+<attributeRef>EBBF4F41-7CD8-F46C-6AD1-45CC7039FA89</attributeRef>
+<attributeRef>70DE94D5-6DB9-A5FE-5FB8-B014FC83216B</attributeRef>
+<attributeRef>08CA4E9D-FD12-64A9-48B7-A47653F6E169</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

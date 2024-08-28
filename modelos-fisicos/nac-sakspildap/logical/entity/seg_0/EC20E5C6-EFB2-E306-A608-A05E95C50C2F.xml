@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EC20E5C6-EFB2-E306-A608-A05E95C50C2F" name="T_ENDERECO">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:24:25 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_cep" id="84A65066-1F12-E41F-AFB9-7C5A82B0953F">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:24:38 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_bairro" id="512775F3-B691-1A3D-5328-4BB212C27505">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:25:13 UTC</createdTime>
+<generatorID>6895E27F-75BB-BD71-CD87-B184C118C824</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<referedAttribute>F22C6592-0091-BD8C-E925-AB78F17527E8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_tipo_logradouro" id="DC3CABCE-37B2-4A3D-F056-4F1431E591CC">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:29:57 UTC</createdTime>
+<generatorID>6B3FADCA-311C-6E05-4987-424AD3C11B2C</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<referedAttribute>73A7C35C-C9FF-9162-F999-21AAB9E7C0B7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7E1B1341-6409-AAF3-09C5-C7B6A9267D29" name="PK_ENDERECO">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:24:58 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>84A65066-1F12-E41F-AFB9-7C5A82B0953F</newElementsIDs>
+<usedAttributes>
+<attributeRef>84A65066-1F12-E41F-AFB9-7C5A82B0953F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

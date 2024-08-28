@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04E2C025-3176-CEBA-6A91-22DD158876AF" name="T_FONE_USUARIO">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>12417AE7-4CE5-0DC3-9AF1-8FAD12942202</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_func" id="05745E96-F92B-1093-46FA-63A09F646913">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>EBBF4F41-7CD8-F46C-6AD1-45CC7039FA89</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="633D843C-370F-02C5-A9CC-86319810B800" referredColumn="15A28BC3-5EC4-0168-B5F6-B44B466536B4"/>
+</associations>
+</Column>
+<Column name="nr_ddd" id="8A88BBEE-CDD2-BD6D-DBA6-941FD5B19953">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>70DE94D5-6DB9-A5FE-5FB8-B014FC83216B</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="C9F8F6A5-D969-7F20-8BDA-B9FCDF815266">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>08CA4E9D-FD12-64A9-48B7-A47653F6E169</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_tipo_fone" id="DA40E688-5E5A-A55A-FDC2-1C996A010802">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>F3870EC8-5F56-8622-4AD0-7AC146D75AE8</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6881898E-69E5-B749-C9D1-966D9127A21B" referredColumn="4626A1FB-7740-0035-187F-E99818F793A8"/>
+</associations>
+</Column>
+<Column name="cd_operadora" id="972BF410-B14E-5C4D-C815-27CE379645F6">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>92612BB4-60F6-C337-D5D8-301EF4BBBFF6</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F56E4329-E04B-08FF-E334-2CE0B5108343" referredColumn="8BEEBD7A-0EA4-3043-16CD-5C3B3A6EF894"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90C23A7C-161F-AC1A-C3A9-5122769D175F" name="PK_FONE_USUARIO">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>598C7F50-68AE-31D1-5557-FFD3027138AE</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05745E96-F92B-1093-46FA-63A09F646913"/>
+<colUsage columnID="8A88BBEE-CDD2-BD6D-DBA6-941FD5B19953"/>
+<colUsage columnID="C9F8F6A5-D969-7F20-8BDA-B9FCDF815266"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7040640B-FB73-763F-5EE0-B91D14E1A304" name="FK_FN_USUA_COD_FUNC">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>A12A2167-BC0A-C542-03CF-E1022847D538</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05745E96-F92B-1093-46FA-63A09F646913"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5E0B33F-5CEC-33E9-5098-F315E8D4B1B1" name="FK_FN_USUA_CD_TP_FONE">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>12258857-1F83-F82F-BB38-14D38B2F3F1E</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA40E688-5E5A-A55A-FDC2-1C996A010802"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8701AD9A-9C24-131F-7D7A-774EF7BD1E22" name="FK_FN_USUA_COD_OPER">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>81E9630A-38AE-5015-55BC-A7A5793162C0</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="972BF410-B14E-5C4D-C815-27CE379645F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_16" directorySegmentName="seg_0" id="47D8CE69-4DD1-1D6C-FAF2-5028085F50D0">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:34:59 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<sourcePk>2775C5A4-AE2E-684B-6457-D7E38B3916BD</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1D6ED134-A60E-2DA9-284F-42DDFC3E2C18</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A7149D22-FBBA-9E54-BFF5-EAE810F0DB6A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

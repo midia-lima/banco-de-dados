@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F56E4329-E04B-08FF-E334-2CE0B5108343" containerWithKeyObject="04E2C025-3176-CEBA-6A91-22DD158876AF" localFKIndex="8701AD9A-9C24-131F-7D7A-774EF7BD1E22" name="FK_FN_USUA_COD_OPER">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>81E9630A-38AE-5015-55BC-A7A5793162C0</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<referredTableLongName>T_OPERADORA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1C3E5428-A670-6E0F-8838-EB20BC664188</referredTableID>
+<keyObject>23197DDC-6A0E-9A8B-FAC4-718B131E3CB2</keyObject>
+<referredKeyID>23197DDC-6A0E-9A8B-FAC4-718B131E3CB2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_operadora</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

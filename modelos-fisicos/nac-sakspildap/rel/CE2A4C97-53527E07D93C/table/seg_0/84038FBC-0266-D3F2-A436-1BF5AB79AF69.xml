@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84038FBC-0266-D3F2-A436-1BF5AB79AF69" name="T_TIPO_END">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>1D6ED134-A60E-2DA9-284F-42DDFC3E2C18</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_tipo_end" id="3BBAD331-440C-D341-BFBD-B1E5A5D42FE0">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>B870B6EE-1604-9008-F268-A1666A4054A7</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_tipo_end" id="C909C201-AC7F-145D-AC97-DDD6330EC176">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>D0756DF4-30C1-537F-F475-FA91477D8259</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2881BC1-BCBC-9FB6-E888-F868E26144F9" name="PK_TIPO_END">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>2775C5A4-AE2E-684B-6457-D7E38B3916BD</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BBAD331-440C-D341-BFBD-B1E5A5D42FE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

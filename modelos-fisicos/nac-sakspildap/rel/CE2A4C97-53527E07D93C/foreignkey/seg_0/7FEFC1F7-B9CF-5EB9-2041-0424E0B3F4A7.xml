@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7FEFC1F7-B9CF-5EB9-2041-0424E0B3F4A7" containerWithKeyObject="084BC4D9-3B1F-DF89-DF59-E79569AECD3B" localFKIndex="719A0FFA-E9E5-7C6D-17F4-AFF7FFBF38A6" name="FK_FUNC_END_CEP">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>FC9E6B20-3DFB-9F07-3F8B-4735D54F2E6E</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<referredTableLongName>T_ENDERECO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6EAC1A29-D779-3DD7-9F70-6F5D076AFBC8</referredTableID>
+<keyObject>701559BE-42AB-8863-7481-9C63906A8B9C</keyObject>
+<referredKeyID>701559BE-42AB-8863-7481-9C63906A8B9C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nr_cep</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

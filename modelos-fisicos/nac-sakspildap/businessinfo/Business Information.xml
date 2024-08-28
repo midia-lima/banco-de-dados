@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="2FF88ACC-01A2-82EC-F387-28C3A5AFEA6D">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 01:41:23 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

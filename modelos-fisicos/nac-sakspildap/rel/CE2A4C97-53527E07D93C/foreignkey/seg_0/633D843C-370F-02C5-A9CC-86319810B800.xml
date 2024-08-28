@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="633D843C-370F-02C5-A9CC-86319810B800" containerWithKeyObject="04E2C025-3176-CEBA-6A91-22DD158876AF" localFKIndex="7040640B-FB73-763F-5EE0-B91D14E1A304" name="FK_FN_USUA_COD_FUNC">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>A12A2167-BC0A-C542-03CF-E1022847D538</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<referredTableLongName>T_FUNC</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C3971F83-4C6A-EA77-EE2A-0282968D282E</referredTableID>
+<keyObject>D3B554AF-C108-3970-E3E0-45A1F2070565</keyObject>
+<referredKeyID>D3B554AF-C108-3970-E3E0-45A1F2070565</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_func</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

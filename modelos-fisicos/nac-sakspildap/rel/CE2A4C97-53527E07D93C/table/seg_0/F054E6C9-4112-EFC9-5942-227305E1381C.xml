@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F054E6C9-4112-EFC9-5942-227305E1381C" name="T_DEP_FUNC">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>A81FA889-D385-6051-9560-D5F1BFD7FF12</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_dep" id="26A8ACC6-346F-01B5-B437-3F733F784A8C">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>1F8B6C54-3876-7722-A43F-0E13276E34F1</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_dep" id="A27D5AC3-824E-64D2-AB50-4DE1137D5501">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>C4ECACCD-73A6-5FCC-992F-1E92FA2139B3</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81235DFD-5990-F8B8-02D9-155F0108A9AA" name="PK_DEP">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>EA2FC792-79F5-5331-2883-42AD74FB035F</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26A8ACC6-346F-01B5-B437-3F733F784A8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DEB08C96-E0A2-9E8C-F0B3-6C57946DD9C8" name="UN_DEP">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>7270A52F-BC70-95C9-5330-EE71091D5C82</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A27D5AC3-824E-64D2-AB50-4DE1137D5501"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

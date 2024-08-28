@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2530897A-E58E-281D-A7BA-FD78C04E85B2" name="T_FUNC_PROJETOS">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 22:34:44 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_func" id="6876E446-6259-06C4-7DDD-B446A9B5AD29">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 22:35:32 UTC</createdTime>
+<generatorID>AEB1A98F-7397-ED66-37E1-DCF3D33544B2</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<referedAttribute>1F22D46A-CC7C-F4B4-F05F-1578490239ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_projeto" id="574EB906-1820-FFDC-6131-41BB817B2AA3">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 22:35:43 UTC</createdTime>
+<generatorID>49BFD980-32F6-7ED1-FEDF-8288CB09B67E</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<referedAttribute>62637706-02B8-76B7-CD12-1898CABF4242</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

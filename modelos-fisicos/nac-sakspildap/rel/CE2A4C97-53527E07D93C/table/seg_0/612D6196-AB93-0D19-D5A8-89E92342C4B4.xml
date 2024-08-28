@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="612D6196-AB93-0D19-D5A8-89E92342C4B4" name="T_FUNC_PROJETOS">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>2530897A-E58E-281D-A7BA-FD78C04E85B2</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_func" id="1D60F270-6F27-8561-DBAF-1811504220F5">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>6876E446-6259-06C4-7DDD-B446A9B5AD29</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38A856F5-02A2-B911-6602-9E4128E9DEA9" referredColumn="15A28BC3-5EC4-0168-B5F6-B44B466536B4"/>
+</associations>
+</Column>
+<Column name="cod_projeto" id="35CA9CE3-E9EB-3014-CD67-B96CA2620F2D">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>574EB906-1820-FFDC-6131-41BB817B2AA3</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="006CC4E3-9ED4-7764-8AEF-A36973D5EDE6" referredColumn="69C20D7F-DFC4-7109-01D6-CCD33CE4BF9E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51704174-C5D4-15D3-7661-8DFAF2AA48C0" name="FK_FUNC_PROJ_COD_FUNC">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>AEB1A98F-7397-ED66-37E1-DCF3D33544B2</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D60F270-6F27-8561-DBAF-1811504220F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D52E5BFE-7897-8AC4-5D95-2731D2CCB7BB" name="FK_FUNC_PROJ_COD_PROJ">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>49BFD980-32F6-7ED1-FEDF-8288CB09B67E</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35CA9CE3-E9EB-3014-CD67-B96CA2620F2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

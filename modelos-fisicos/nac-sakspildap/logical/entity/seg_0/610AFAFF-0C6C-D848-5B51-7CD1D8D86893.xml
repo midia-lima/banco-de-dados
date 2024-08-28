@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="610AFAFF-0C6C-D848-5B51-7CD1D8D86893" name="T_BAIRRO">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:19:42 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_bairro" id="F22C6592-0091-BD8C-E925-AB78F17527E8">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:19:54 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cidade" id="B4ACE3A8-7096-CCFA-40B9-7E5CDC6A9504">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:20:25 UTC</createdTime>
+<generatorID>4DB3440D-D65E-039B-F51E-73A6AF77B7B8</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<referedAttribute>7B87B97D-CB53-3177-CC5E-E2AA10F6F562</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_bairro" id="7D8403F6-2B2A-8DCF-E7FA-896F2E72B094">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:20:31 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1A4A3FC4-6DB3-56BB-A1EC-2030D8F67298" name="PK_BAIRRO">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 23:20:12 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<engineerTo>
+<item key="CE2A4C97-2FB8-A676-2A23-53527E07D93C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>F22C6592-0091-BD8C-E925-AB78F17527E8</newElementsIDs>
+<usedAttributes>
+<attributeRef>F22C6592-0091-BD8C-E925-AB78F17527E8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

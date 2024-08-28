@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="nac-sakspildap" id="A58C4D62-2785-99F7-CDBC-D21C4BB16724" version="3.5">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-26 01:41:22 UTC</createdTime>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A58C4D62-2785-99F7-CDBC-D21C4BB16724</designId>
+</OSDM_Design>

@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="084BC4D9-3B1F-DF89-DF59-E79569AECD3B" name="T_FUNC_END">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>A7149D22-FBBA-9E54-BFF5-EAE810F0DB6A</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_cep" id="E6273550-95EA-89CC-35DE-BD311E152EF7">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>19F7A013-343C-5DE7-FF83-D50B7C6A2B02</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7FEFC1F7-B9CF-5EB9-2041-0424E0B3F4A7" referredColumn="C15441EB-6B87-F66A-F831-2CADAEE82EF8"/>
+</associations>
+</Column>
+<Column name="cod_func" id="96DC73D9-7AD3-7D35-C6B5-3755B6B49BD8">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>DCD789E8-EC63-96FE-EB6A-FC1D24D3E780</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7820F794-B81E-FAE6-28C3-045B8CD29EBA" referredColumn="15A28BC3-5EC4-0168-B5F6-B44B466536B4"/>
+</associations>
+</Column>
+<Column name="cd_tipo_end" id="220AF539-9E62-8040-EAA0-4EF46BEE0E5F">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>CAAD8D5C-AF82-0FD0-13C4-F4B6EB90570F</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="201878EC-2F27-A05C-4F24-994B669F3F69" referredColumn="3BBAD331-440C-D341-BFBD-B1E5A5D42FE0"/>
+</associations>
+</Column>
+<Column name="ds_complemento" id="02B212E3-382E-E8C7-4C37-779B7E6DE2BC">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>13868A64-D063-A398-D86E-AC7AC622E144</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_logradouro" id="8B659ADD-4153-3F3E-4D69-9816FDB4C042">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>4B0C757A-7729-EED5-8FF0-55233FFD86CB</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="719A0FFA-E9E5-7C6D-17F4-AFF7FFBF38A6" name="FK_FUNC_END_CEP">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>FC9E6B20-3DFB-9F07-3F8B-4735D54F2E6E</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6273550-95EA-89CC-35DE-BD311E152EF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB596A55-2A4B-34D3-EE78-4BA03EDF233A" name="FK_FUNC_END_FUNC">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>ABC9E1DD-3699-ECF4-DC68-1E728EEC1A99</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96DC73D9-7AD3-7D35-C6B5-3755B6B49BD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFB67D7D-3616-9D35-E3A4-6D7FA6F9AD9F" name="FK_FUNC_END_TP_END">
+<createdBy>midia</createdBy>
+<createdTime>2020-08-27 00:07:07 UTC</createdTime>
+<generatorID>47D8CE69-4DD1-1D6C-FAF2-5028085F50D0</generatorID>
+<ownerDesignName>nac-sakspildap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="220AF539-9E62-8040-EAA0-4EF46BEE0E5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
